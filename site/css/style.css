@@ -1,6 +1,14 @@
 body {
-	font: 24px Helvetica;
+	font: 24px Raleway;
 	background: #000;
+}
+
+h1 {
+    font: 24px Raleway;
+}
+
+p {
+    font: 11px Raleway;
 }
 
 #main {
