@@ -18,9 +18,9 @@ body {
 #main > article {
 	margin: 4px;
 	padding: 5px;
-	border: 1px solid #ffff00;
+	border: 1px solid #434343;
 	border-radius: 7pt;
-	background: #cccc00;
+	background: #111111;
 	flex: 3 1 80%;
 	order: 2;
 }
@@ -28,11 +28,14 @@ body {
 #main > nav {
 	margin: 4px;
 	padding: 5px;
-	border: 1px solid #ff0000;
-	border-radius: 7pt;
-	background: #ff00ff;
 	flex: 1 6 20%;
 	order: 1;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	a {
+		flex-grow: 1;
+	}
 }
 
 footer {
