@@ -1,6 +1,6 @@
 body {
 	font: 24px Helvetica;
-	background: #999999;
+	background: #000;
 }
 
 #main {
@@ -8,26 +8,30 @@ body {
 	margin: 0px;
 	padding: 0px;
 	display: flex;
-	flex-flow: row;
+    flex-flow: column;
+}
+
+#main > img {
+    margin: 100px;
 }
 
 #main > article {
 	margin: 4px;
 	padding: 5px;
-	border: 1px solid #cccc33;
+	border: 1px solid #ffff00;
 	border-radius: 7pt;
-	background: #dddd88;
-	flex: 3 1 60%;
+	background: #cccc00;
+	flex: 3 1 80%;
 	order: 2;
 }
 
 #main > nav {
 	margin: 4px;
 	padding: 5px;
-	border: 1px solid #8888bb;
+	border: 1px solid #ff0000;
 	border-radius: 7pt;
-	background: #ccccff;
-	flex: 0 6 20%;
+	background: #ff00ff;
+	flex: 1 6 20%;
 	order: 1;
 }
 
@@ -36,7 +40,4 @@ header, footer {
 	margin: 4px;
 	padding: 5px;
 	min-height: 100px;
-	border: 1px solid #eebb55;
-	border-radius: 7pt;
-	background: #ffeebb;
 }
