@@ -11,8 +11,8 @@ body {
     flex-flow: column;
 }
 
-#main > img {
-    margin: 100px;
+#main > header {
+    display: flex;
 }
 
 #main > article {
@@ -35,9 +35,18 @@ body {
 	order: 1;
 }
 
+footer {
+    display: block;
+}
+
 header, footer {
-	display: block;
 	margin: 4px;
 	padding: 5px;
 	min-height: 100px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
