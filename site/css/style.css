@@ -68,21 +68,15 @@ a:hover {
     cursor: pointer;
 }
 
-footer {
-    display: block;
-}
-
 header, footer {
 	margin: 4px;
 	padding: 5px;
 	min-height: 100px;
-}
-
-header {
-    display: flex;
-    justify-content: center;
+	display: flex;
+	justify-content: center;
     align-items: center;
 }
+
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
